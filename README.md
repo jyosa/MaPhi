@@ -7,7 +7,7 @@ Python code for easily compute 2D-3D and electronic descriptors, using orca and 
 MaPhi is a program written in python 3.6 for Linux, which compute descriptors for a set of molecules for chemoinformatics studies. Maphi uses MORDRED https://pypi.org/project/mordred/ and Orca https://orcaforum.cec.mpg.de/ for two- and three-dimensional and electronic descriptors respectively. The program takes a set of molecules in a directory in mol2 format and initially perform a charge estimation and run an initial molecular optimization using MOPAC2016, MOPAC optimization with PM7, provide to orca a good initial guess for molecular optimization. The molecule is then optimized using orca with a level of theory provided by the user. With the optimized molecule, electronic parameters are extracted from the orca output file and compute other electronic properties as electrophilicity, electronegativity among others. Also, Maphi generates input file for orca and compute cube file for HOMO, LUMO, LUMO+1, LUMO+2, HOMO-1, HOMO-2 and electrostatic potential for each molecule that can be easily loaded into VMD (https://www.ks.uiuc.edu/Research/vmd/) for visualization. After that, MaPhi generates the input for MORDRED that computes more than 1800 descriptors (See MORDRED web page for more information). Maphi finally generates two scv files, which contain electronic and two- and three-dimensional descriptor. The files can be easily open in many programs for analysis such as R, Excel, SPSS, SAS, orange3, knime, and python. MaPhi is easy to use, the only thing the user needs to do, is to provide a set of molecules, adjust the parameters in the param.py file and run it. If you have thousands or millions of molecules, you can design a python script to split molecules into several folders and use different nodes to perform the calculation, you just need to import maphy to your code.
 
 
-### Prerequisites
+## Prerequisites
 
 MaPhi uses the following program to run:
 
@@ -20,7 +20,7 @@ Openbabel
 
 MORDRED
 
-#### How to install MOPAC2016:
+### How to install MOPAC2016:
 
 
 MOPAC id a semiempirical software free for academics, you need first to fill a for to get an academic license [here](http://openmopac.net/form.php) 
@@ -105,7 +105,7 @@ $ mopac /opt/mopac/Example_data_set.mop
 
 13. You are now ready to run MOPAC2016. If you are new to mopac, please see the  [MOPAC manual](http://openmopac.net/manual/). 
 
-#### How to install orca:
+### How to install orca:
 
 For orca, you can download the binary file from orca [web page](https://orcaforum.cec.mpg.de/). register if you are a new user, and download binaries for Linux x86-64 (Complete archive (Format .tar.zst)) and untar the file in $HOME directory:
 
@@ -124,6 +124,7 @@ After untar the file you can find the orca executable inside the folder. Change 
 ```
 $ echo 'export PATH=$HOME/orca:$PATH' >> ~/.bash_profile; source ~/.bash_profile
 ```
+### Other dependencies:
 
 For the rest of dependencies it is necessary to install CONDA (for python 3.6) and MINICONDA (for python 3.6), please follow the instructions [here](https://conda.io/docs/user-guide/install/linux.html). To make the changes take effect, close and then re-open your Terminal window. and run the file that comes with MaPhi install_programs.sh
 
