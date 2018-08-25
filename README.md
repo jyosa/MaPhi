@@ -235,3 +235,6 @@ Running calculation:
 $ python MaPhi.py
 ```
 
+## Results:
+
+Results are found in the same directory where the molecules are. you can see two scv files and one directory for each molecule where input and output files are located.
