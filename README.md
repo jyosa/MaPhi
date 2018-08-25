@@ -23,9 +23,9 @@ MORDRED
 ### How to install MOPAC2016:
 
 
-MOPAC id a semiempirical software free for academics, you need first to fill a for to get an academic license [here](http://openmopac.net/form.php) 
+MOPAC is a semiempirical software free for academics, you need first to fill a form to get an academic license [here](http://openmopac.net/form.php) 
 
-The download MOPAC2016 in this [link](http://openmopac.net/Download_MOPAC_Executable_Step2.html), please download the file corresponding to "Download 64-bit MOPAC2016 for LINUX" or "Download 64-bit CPU+GPU MOPAC2016 for LINUX" if you have GPU graphic card.
+Then download MOPAC2016 in this [link](http://openmopac.net/Download_MOPAC_Executable_Step2.html), please download the file corresponding to "Download 64-bit MOPAC2016 for LINUX" or "Download 64-bit CPU+GPU MOPAC2016 for LINUX" if you have GPU graphic card.
 
 Once you get the installation file follow the next steps:
 
@@ -73,7 +73,7 @@ Please change User by specific user name.
 $ mopac <password>
 ```
 
-Remember that <password> is the licese that you have in your e-mail.
+Remember that <password> is the license that you have in your e-mail.
   
 9. If you get the message "/opt/mopac/MOPAC2016.exe: Permission denied" then  change the permissions on MOPAC2016.exe by running:
 ```
