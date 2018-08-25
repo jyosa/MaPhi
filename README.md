@@ -9,7 +9,7 @@ MaPhi is a program written in python 3.6 for Linux, which compute descriptors fo
 
 ## Prerequisites
 
-MaPhi uses the following program to run:
+MaPhi uses the following programs to run:
 
 
 MOPAC2016
