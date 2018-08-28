@@ -20,14 +20,16 @@ Openbabel
 
 MORDRED
 
+RDKIT
+
 ### How to install MOPAC2016:
 
 
 MOPAC is a semiempirical software free for academics, you need first to fill a form to get an academic license [here](http://openmopac.net/form.php) 
 
-Then download MOPAC2016 in this [link](http://openmopac.net/Download_MOPAC_Executable_Step2.html), please download the file corresponding to "Download 64-bit MOPAC2016 for LINUX" or "Download 64-bit CPU+GPU MOPAC2016 for LINUX" if you have GPU graphic card.
+Then, download MOPAC2016 in this [link](http://openmopac.net/Download_MOPAC_Executable_Step2.html), please download the file corresponding to "Download 64-bit MOPAC2016 for LINUX" or "Download 64-bit CPU+GPU MOPAC2016 for LINUX" if you have GPU graphic card.
 
-Once you get the installation file follow the next steps:
+Once you get the installation file, follow the next steps:
 
 1. Create a directory called "/opt/mopac/"
 
