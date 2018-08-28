@@ -124,6 +124,79 @@ After untar the file you can find the orca executable inside the folder. Change 
 ```
 $ echo 'export PATH=$HOME/orca:$PATH' >> ~/.bash_profile; source ~/.bash_profile
 ```
+
+#### Orca in parallel:
+
+For runing orca in parallel download [openmpi 2.02](https://www.open-mpi.org/software/ompi/v2.0/). and create a directory for installing it:
+
+```
+$ mkdir myopenmpi
+```
+copy openmpi-2.02.tar.gz and extract the openmpi-2.02.tar.gz file in the new directory
+
+```
+$ cd  myopenmpi
+$ tar -xvzf openmpi-2.02.tar.gz
+```
+
+Run configure file with the following options:
+
+```
+$ ./configure –prefix=$HOME/local/openmpi-2.0.2_gcc
+```
+Run make command
+
+```
+$ make
+```
+Once it is finish type the following command
+
+```
+$ make install
+```
+After doing this go to home and add the following lines to yuor .bashrc
+
+```
+export PATH=$HOME/local/openmpi-2.02_gcc/bin:$PATH
+export LD_LIBRARY_PATH=$HOME/local/openmpi-2.02_gcc/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}
+```
+And source your .bashrc
+
+```
+$ source .bashrc
+```
+
+
+Test it running the following input file:
+
+```
+%pal nprocs 4 end
+ %MaxCore 3000
+ ! RHF TightSCF PModel
+ !opt
+
+* xyz 0 1
+ C 0.000000 0.000000 0.000000
+ C 0.000000 0.000000 1.400000
+ C 1.212436 0.000000 2.100000
+ C 2.424871 0.000000 1.400000
+ C 2.424871 0.000000 0.000000
+ C 1.212436 0.000000 -0.700000
+ H -0.943102 0.000000 1.944500
+ H 1.212436 0.000000 3.189000
+ H 3.367973 0.000000 1.944500
+ H 3.367973 0.000000 -0.544500
+ H 1.212436 0.000000 -1.789000
+ H -0.943102 0.000000 -0.544500
+ *
+```
+
+Save the file as test.in, and run it
+
+```
+$ $HOME/orca/orca test.in
+```
+
 ### Other dependencies:
 
 For the rest of dependencies it is necessary to install CONDA (for python 3.6) and MINICONDA (for python 3.6), please follow the instructions [here](https://conda.io/docs/user-guide/install/linux.html). To make the changes take effect, close and then re-open your Terminal window. and run the file that comes with MaPhi install_programs.sh
