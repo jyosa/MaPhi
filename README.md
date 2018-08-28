@@ -154,7 +154,7 @@ Once it is finish type the following command
 ```
 $ make install
 ```
-After doing this go to home and add the following lines to yuor .bashrc
+After doing this go to home and add the following lines to your .bashrc
 
 ```
 export PATH=$HOME/local/openmpi-2.02_gcc/bin:$PATH
@@ -217,7 +217,7 @@ And run it again
 To use MaPhi give the correct parameters to the program in the param.py file. Example:
 
 ```
-npro = "1"
+npro = "4"
 orcaEXE = '/home/melquiadez/orca/orca' #orca exe path
 mopacEXE = '/opt/mopac/MOPAC2016.exe' #MOPAC executable
 lev_theory = "B3LYP" #Level of theory check orca manual
@@ -226,7 +226,7 @@ openbabel = '/home/melquiadez/anaconda3/bin/babel' #OpenBabel executable
 mol_path = "/home/melquiadez/mole"
 ```
 
-npro = Number of processor for orca calculation, see the [manual](https://sites.google.com/site/orcainputlibrary/setting-up-orca)  if you are going to use more than 1 processor you have to configure orca to work in parallel installing Openmpi and configure it, please see the manual
+npro = Number of processor for orca calculation, see the [manual](https://sites.google.com/site/orcainputlibrary/setting-up-orca)  if you are going to use more than 1 processor you have to configure orca to work in parallel installing Openmpi and configure it, please see steps above.
 
 orcaEXE = path were orca executable is located
 mopacEXE = path were MOPAC2016 executable is located
