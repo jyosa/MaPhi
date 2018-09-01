@@ -261,11 +261,11 @@ molecule.mop -> input file for mopac to compute total charge
 
 molecule.out -> output file for charge computing MOPAC
 
-molecule_opt.mop -> input file for MOPAC optimization using PM7 see [PM7 performance](http://openmopac.net/PM7_accuracy/PM7_accuracy.html)
+molecule_opt.mop -> input file for MOPAC optimization using PM6 see [PM6 performance](http://openmopac.net/Manual/PM6_accuracy.html)
 
-molecule_opt.out -> MOPAC optimization PM7 output
+molecule_opt.out -> MOPAC optimization PM6 output
 
-molecule_opt.arc -> summary MOPAC optimization PM7
+molecule_opt.arc -> summary MOPAC optimization PM6
 
 orca_input.in -> orca input file for optimization 
 orca_input.prop, orca_input.opt, orca_input.xyz, orca_input_property.txt, orca_input.trj, orca_input.gbw, orca_input.engrad orca_input.out -> output files from orca optimization
