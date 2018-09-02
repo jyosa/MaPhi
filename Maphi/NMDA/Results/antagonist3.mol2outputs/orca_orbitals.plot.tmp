@@ -1,0 +1,19 @@
+  1     # PlotType - Type of plot to be done
+  7     # Format   - File format for output file
+101   0 # MO and operator (if not density)
+  0     # State density to be plotted
+-
+orcaLUMO+2-101.cube     # Output file
+200     # ncont    - number of contours
+  1     # icont    - contour option
+  0     # Skeleton - flag for Skeleton plotting
+  0     # Atoms    - flag for atom plotting
+  0     # UseCol   - flag for use of color
+ 40  40  40                            # Grid dimensions
+  -10.714576    15.735884              # X dimension
+  -15.226091    16.299415              # Y dimension
+  -20.721402    13.867170              # Z dimension
+ -1  -1  -1                            # defining atoms
+    0.000000     0.000000     0.000000 # defining vector-1
+    1.000000     0.000000     0.000000 # defining vector-2
+    0.000000     1.000000     0.000000 # defining vector-3
