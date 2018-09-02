@@ -388,14 +388,20 @@ Also, as MaPhi are using Orca, MOPAC, MORDRED and RDKIT please make the correspo
 ## Developers
 
 Juvenal Yosa Reyes {coder}
+
 Universidad Simon Bolivar
-Molecular Simulation Lab 
+
+Molecular Simulation Lab
+
 Assistant professor
 
 
 Jorge Leyva
+
 Universidad Simon Bolivar
-Molecular Simulation Lab 
+
+Molecular Simulation Lab
+
 Assistant professor
 
 
