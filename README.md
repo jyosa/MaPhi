@@ -238,12 +238,12 @@ lev_theory = Level of theory check orca manual
 
 basis_set = Basis set check orca manual
 
-openbabel = path was openbabel executable is located, if you ignore the openbabel path type the following command:
+openbabel = path where openbabel executable is located, if you ignore the openbabel path, type the following command:
 
 ```
 $ which babel
 ```
-mol_path = is the path of a directory were the molecules to be computed in Mol2 file are located.
+mol_path = is the path of the directory where  molecules to be computed, in Mol2 file, are located.
 
 Run Maphy with the following command:
 
