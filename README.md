@@ -314,4 +314,7 @@ $ python MaPhi.py
 
 Results are found in the same molecules directory. you can see two scv files and one directory for each molecule where input and output files are located. The two scv files corresponds to electronic properties and 2D-3D molecular descriptors. 
 
+Electronic:
+
+![alt text](https://github.com/jyosa/MaPhi/blob/master/res1.png)
 
