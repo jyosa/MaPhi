@@ -326,7 +326,7 @@ Electronic descriptors:
 
 ![alt text](https://github.com/jyosa/MaPhi/blob/master/res2.png)
 
-Maphi will create a directory for each molecule where results are store. You can find, beside the input and output files for MOPAC and orca, a mol2 file, mol file and smile file. Also, a 2D representation of the molecule:
+Maphi will create a directory for each molecule where results are stored. You can find, beside the input and output files for MOPAC and orca, a mol2 file, mol file and smile file. Also, a 2D representation of the molecule:
 
 ![alt text](https://github.com/jyosa/MaPhi/blob/master/Maphi/NMDA/Results/antagonist3.mol2outputs/molecule.png)
 
