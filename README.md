@@ -298,7 +298,7 @@ As an example we provide 5 Molecules in a folder called NMDA, The N-methyl-D-asp
 Configure the file with the requiere parameters. In our case the param.py file looks like:
 
 ```
-npro = "1"
+npro = "8"
 orcaEXE = "/home/melquiadez/orca/orca"
 mopacEXE = "/opt/mopac/MOPAC2016.exe"
 lev_theory = "B3LYP"
