@@ -383,7 +383,7 @@ And picture for each orbital (HOMO, LUMO, LUMO+1 etc) will stored in each molecu
 
 We are preparing paper with some examples using KNIME, ORANGE3 and python for molecules calsification with random forest and support vector machine. But in the meantime you can cite MaPhi with the following DOI: 10.5281/zenodo.1407646.
 
-Also as MaPhi use Orca, MOPAC, MORDRED and RDKIT please make the corresponding cite.
+Also, as MaPhi are using Orca, MOPAC, MORDRED and RDKIT please make the corresponding cite.
 
 ## Developers
 
