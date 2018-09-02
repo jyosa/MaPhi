@@ -314,7 +314,14 @@ $ python MaPhi.py
 
 Results are found in the same molecules directory. you can see two scv files and one directory for each molecule where input and output files are located. The two scv files corresponds to electronic properties and 2D-3D molecular descriptors. 
 
-Electronic:
+Electronic descriptors:
 
 ![alt text](https://github.com/jyosa/MaPhi/blob/master/res1.png)
+
+2D-3D descriptors
+
+![alt text](https://github.com/jyosa/MaPhi/blob/master/res2.png)
+
+Maphi will create a directory for each molecule where results are store. You can find, beside the input and output files for MOPAC and orca, a mol2 file, mol file and smile file. Also, a 2D representation of the molecule:
+
 
