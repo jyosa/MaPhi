@@ -231,9 +231,13 @@ mol_path = "/home/melquiadez/mole"
 npro = Number of processor for orca calculation, see the [manual](https://sites.google.com/site/orcainputlibrary/setting-up-orca)  if you are going to use more than 1 processor you have to configure orca to work in parallel installing Openmpi and configure it, please see steps above.
 
 orcaEXE = path were orca executable is located
+
 mopacEXE = path were MOPAC2016 executable is located
+
 lev_theory = Level of theory check orca manual
+
 basis_set = Basis set check orca manual
+
 openbabel = path was openbabel executable is located, if you ignore the openbabel path type the following command:
 
 ```
