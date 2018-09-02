@@ -371,7 +371,7 @@ Run it:
 $ ./get_orb_pictures.sh
 ```
 
-And picture for each orbital (HOMO, LUMO, LUMO+1 etc) will store in each molecule folder:
+And picture for each orbital (HOMO, LUMO, LUMO+1 etc) will stored in each molecule folder:
 
 ![alt text](https://github.com/jyosa/MaPhi/blob/master/orb1.png)
 
