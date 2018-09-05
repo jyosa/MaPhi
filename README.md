@@ -226,6 +226,7 @@ lev_theory = "B3LYP" #Level of theory check orca manual
 basis_set = '3-21G' #Basis set check orca manual
 openbabel = '/home/melquiadez/anaconda3/bin/babel' #OpenBabel executable
 mol_path = "/home/melquiadez/mole"
+ph = "-p 7.4"
 ```
 
 npro = Number of processor for orca calculation, see the [manual](https://sites.google.com/site/orcainputlibrary/setting-up-orca)  if you are going to use more than 1 processor you have to configure orca to work in parallel installing Openmpi and configure it, please see steps above.
@@ -244,6 +245,8 @@ openbabel = path where openbabel executable is located, if you ignore the openba
 $ which babel
 ```
 mol_path = is the path of the directory where  molecules to be computed, in Mol2 file, are located.
+
+ph = This variable is needed to produce 2D picture with correct protonate state, it does not have any effect in your molecule, that means, it does not change the structure for the quantum calculation, it is for a correct 2D representation of the molecule. If you want a specific protonate state, eg. a glycine  without proton OOC-CH2-NH2 instead -OOC-CH2-NH3+, leave this line blank. (e.g ph = ""). "REMEMBER" it does not have any effect in your mol2 file, just for 2D representation.
 
 Run Maphy with the following command:
 
@@ -305,6 +308,7 @@ lev_theory = "B3LYP"
 basis_set = "6-31G"
 openbabel = "/home/melquiadez/anaconda3/bin/babel"
 mol_path = "/home/melquiadez/program_electronic_prop_bash/mole"
+ph = "-p 7.4"
 ```
 
 Here we are going to use B3LYP with the 6-31G  basis set.
