@@ -201,7 +201,7 @@ $ $HOME/orca/orca test.in
 
 ### Other dependencies:
 
-For the rest of dependencies it is necessary to install CONDA (for python 3.6) and MINICONDA (for python 3.6), please follow the instructions [here](https://conda.io/docs/user-guide/install/linux.html). To make the changes take effect, close and then re-open your Terminal window. and run the file that comes with MaPhi install_programs.sh
+For the rest of dependencies it is necessary to install CONDA and MINICONDA, please follow the instructions [here](https://conda.io/docs/user-guide/install/linux.html). To make the changes take effect, close and then re-open your Terminal window. and run the file that comes with MaPhi install_programs.sh
 
 ```
 $ ./install_programs.sh
@@ -213,6 +213,11 @@ $ chmod +x install_programs
 ```
 And run it again
 
+Again you need to re-open your terminal window and activate maphy environment:
+
+```
+$ source activate maphi
+```
 
 ## How to Use Maphi:
 
@@ -235,9 +240,9 @@ orcaEXE = path were orca executable is located
 
 mopacEXE = path were MOPAC2016 executable is located
 
-lev_theory = Level of theory check orca manual
+lev_theory = Level of theory. Check orca manual
 
-basis_set = Basis set check orca manual
+basis_set = Basis set. Check orca manual
 
 openbabel = path where openbabel executable is located, if you ignore the openbabel path, type the following command:
 
