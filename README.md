@@ -14,7 +14,7 @@ MaPhi uses the following programs to run:
 
 MOPAC2016
 
-orca 4.01
+orca 4.2
 
 Openbabel
 
@@ -112,7 +112,7 @@ $ mopac /opt/mopac/Example_data_set.mop
 For orca, you can download the binary file from orca [web page](https://orcaforum.cec.mpg.de/). register if you are a new user, and download binaries for Linux x86-64 (Complete archive (Format .tar.zst)) and untar the file in $HOME directory:
 
 ```
-$ tar -I zstd -xvf orca_file.tar.zstd
+$ tar -I zstd -xvf orca_file.tar.zst
 ```
 Change name of the orca_file.tar.zstd to the corresponding file name.
 If you don't have zstd installed, do the following:
@@ -129,22 +129,22 @@ $ echo 'export PATH=$HOME/orca:$PATH' >> ~/.bash_profile; source ~/.bash_profile
 
 #### Orca in parallel:
 
-For runing orca in parallel download [openmpi 2.02](https://www.open-mpi.org/software/ompi/v2.0/). and create a directory for installing it:
+For runing orca in parallel download [openmpi 3.1.4](https://www.open-mpi.org/software/ompi/v3.1/). and create a directory for installing it:
 
 ```
 $ mkdir myopenmpi
 ```
-copy openmpi-2.02.tar.gz and extract the openmpi-2.02.tar.gz file in the new directory
+copy openmpi-3.1.4.tar.gz and extract the openmpi-3.1.4.tar.gz file in the new directory
 
 ```
 $ cd  myopenmpi
-$ tar -xvzf openmpi-2.02.tar.gz
+$ tar -xvzf openmpi-3.1.4.tar.gz
 ```
 
 Run configure file with the following options:
 
 ```
-$ ./configure –prefix=$HOME/local/openmpi-2.0.2_gcc
+$ ./configure –prefix=$HOME/local/openmpi-3.1.4_gcc
 ```
 Run make command
 
@@ -159,8 +159,8 @@ $ make install
 After doing this go to home and add the following lines to your .bashrc
 
 ```
-export PATH=$HOME/local/openmpi-2.02_gcc/bin:$PATH
-export LD_LIBRARY_PATH=$HOME/local/openmpi-2.02_gcc/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}
+export PATH=$HOME/local/openmpi-3.1.4_gcc/bin:$PATH
+export LD_LIBRARY_PATH=$HOME/local/openmpi-3.1.4_gcc/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}
 ```
 And source your .bashrc
 
