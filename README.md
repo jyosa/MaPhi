@@ -400,5 +400,4 @@ Also, as MaPhi are using Orca, MOPAC, MORDRED and RDKIT please make the correspo
 
 **Jorge Leyva** - Assistant Professor
 
-**Universidad Simon Bolivar** - [Molecular Simulation and Bioinformatic Lab.](https://yosa910.wixsite.com/biochemcomp)
 
