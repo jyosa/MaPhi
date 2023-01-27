@@ -396,7 +396,7 @@ Also, as MaPhi are using Orca, MOPAC, MORDRED and RDKIT please make the correspo
 
 ## Developers
 
-**Juvenal Yosa Reyes** - *[coder]* - Assistant Professor
+**Juvenal Yosa Reyes** - *[coder]* - Protein engineering - EV Biotech
 
 **Jorge Leyva** - Assistant Professor
 
